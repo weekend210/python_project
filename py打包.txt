@@ -1,0 +1,11 @@
+1、新建文件夹并在其中打开命令行
+2、激活虚拟环境
+	pipenv shell
+3、安装相应的库
+	pipenv install pyinstaller
+	pipenv install removebg
+4、把源代码的所有库全都装入这个环境中
+5、把原工程文件复制粘贴到文件夹中
+6、开始打包
+	pyinstaller -F -w main.py
+7、打包后的.exe文件在dist文件夹中

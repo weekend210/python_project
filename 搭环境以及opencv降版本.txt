@@ -1,0 +1,13 @@
+1、打开Anaconda命令行
+2、配置新环境python3.6
+conda create -n new_env python=3.6
+3、链接到新环境
+conda activate new_env
+4、numpy降级
+pip3 uninstall numpy
+pip3 install numpy==1.19.3
+5、安装低版本opencv
+pip3 install opencv-python==3.4.2.16
+pip3 install opencv-contrib-python==3.4.2.16
+6、打开pycharm打开项目
+7、设置中将项目的python编译器改成新搭建的环境
